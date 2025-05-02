@@ -4,15 +4,15 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md">
+    <nav className="bg-black shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-        <div className="text-xl font-bold text-gray-800">
-          MyBlog
+        <div className="text-xl font-bold text-white">
+          Juanj72
         </div>
         <div className="hidden md:flex space-x-4">
-          <a className="text-gray-600 hover:text-gray-900">Home</a>
-          <a className="text-gray-600 hover:text-gray-900">About</a>
-          <a className="text-gray-600 hover:text-gray-900">Posts</a>
+          <a className="text-white hover:text-blue">Home</a>
+          <a className="text-white hover:text-blue">About</a>
+          <a className="text-white hover:text-blue">Posts</a>
         </div>
         <div className="md:hidden">
           <button
@@ -51,19 +51,19 @@ export const Navbar = () => {
         }`}
       >
         <a
-          className="block py-2 text-gray-600 hover:text-gray-900"
+          className="block py-2 text-white hover:text-blue"
           onClick={() => setIsOpen(false)}
         >
           Home
         </a>
         <a
-          className="block py-2 text-gray-600 hover:text-gray-900"
+          className="block py-2 text-white hover:text-blue"
           onClick={() => setIsOpen(false)}
         >
           About
         </a>
         <a
-          className="block py-2 text-gray-600 hover:text-gray-900"
+          className="block py-2 text-white hover:text-blue"
           onClick={() => setIsOpen(false)}
         >
           Posts
