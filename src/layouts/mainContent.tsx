@@ -5,7 +5,7 @@ export const MainContent = () => {
   return (
     <>
       <Navbar />
-      <div className="m-4">
+      <div className="container mx-auto p-5 bg-blue-100 my-5 rounded ">
         <Outlet />
       </div>
     </>
