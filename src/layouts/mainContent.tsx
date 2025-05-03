@@ -4,12 +4,12 @@ import { Footer } from "./footer";
 
 export const MainContent = () => {
   return (
-    <div className="bg-[#0a0a23]">
+    <div className="flex flex-col min-h-screen bg-[#0a0a23]">
       <Navbar />
-      <div className="container mx-auto  bg-white shadow my-5 rounded ">
+      <main className="flex-grow container mx-auto px-4 py-6">
         <Outlet />
-      </div>
-    <Footer />
+      </main>
+      <Footer />
     </div>
   );
 };
