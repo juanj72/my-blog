@@ -1,18 +1,26 @@
-import { useState } from 'react';
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-900 shadow-md">
+    <nav className="bg-[#0a0a23] shadow-md text-gray-100 fixed top-0 w-full">
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-        <div className="text-xl font-bold text-white">
-          <a href="">Juanj72</a>
+        <div className="text-xl font-bold text-white text-1xl">
+          <Link to={""}>Juanj72</Link>
         </div>
-        <div className="hidden md:flex space-x-4">
-          <a href="" className="text-white hover:text-blue">Home</a>
-          <a  href='' className="text-white hover:text-blue">About</a>
-          <a href='' className="text-white hover:text-blue">Posts</a>
+        <div className="hidden md:flex space-x-4 text-2xl">
+          <Link to={""} className="text-white hover:text-blue ">
+            Home
+          </Link>
+
+          <Link to={""} className="text-white hover:text-blue">
+            About
+          </Link>
+          <Link to={""} className="text-white hover:text-blue">
+            Posts
+          </Link>
         </div>
         <div className="md:hidden">
           <button
@@ -47,7 +55,7 @@ export const Navbar = () => {
       {/* Menú desplegable con transición */}
       <div
         className={`md:hidden px-4 overflow-hidden transition-all duration-300 ease-in-out ${
-          isOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'
+          isOpen ? "max-h-40 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
         <a
