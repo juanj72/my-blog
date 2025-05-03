@@ -40,12 +40,36 @@ export const Home = () => {
 
         {/* Descripción personal */}
         <p className="mt-6 text-gray-400 text-justify leading-relaxed ">
-          Soy un apasionado desarrollador web con experiencia en React,
-          TypeScript y Tailwind CSS. Me encanta crear interfaces elegantes,
-          aprender nuevas tecnologías y colaborar en proyectos desafiantes.
-          Cuando no estoy programando, disfruto leer, explorar nuevas
-          herramientas y compartir conocimiento con la comunidad.
+          Soy ingeniero de sistemas y desarrollador backend, actualmente en
+          formación para convertirme en desarrollador full stack. Me apasiona
+          resolver problemas reales mediante código y me enfoco en escribir
+          soluciones limpias, eficientes y sostenibles.
         </p>
+        <p className="mt-6 text-gray-400 text-justify leading-relaxed ">
+          Tengo experiencia práctica en Python, JavaScript y PHP, trabajando con
+          frameworks como Django y React.js para construir herramientas robustas
+          y eficientes.
+        </p>
+        <div className="flex flex-wrap gap-2 mt-4">
+          <span className="bg-gradient-to-r from-yellow-400 to-blue-500 text-white px-2 py-1 rounded text-sm">
+            Python
+          </span>
+          <span className="bg-green-700 text-white px-2 py-1 rounded text-sm">
+            Django
+          </span>
+          <span className="bg-teal-500 text-white px-2 py-1 rounded text-sm">
+            FastAPI
+          </span>
+          <span className="bg-blue-600 text-white px-2 py-1 rounded text-sm">
+            SQL
+          </span>
+          <span className="bg-cyan-400 text-white px-2 py-1 rounded text-sm">
+            React.js
+          </span>
+          <span className="bg-green-600 text-white px-2 py-1 rounded text-sm">
+            MongoDB
+          </span>
+        </div>
       </div>
 
       {/* Imagen */}
