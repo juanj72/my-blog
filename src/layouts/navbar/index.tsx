@@ -21,8 +21,8 @@ export const Navbar = () => {
           <Link to="about" className="hover:text-indigo-400 transition-colors duration-300">
             About
           </Link>
-          <Link to="" className="hover:text-indigo-400 transition-colors duration-300">
-            Posts
+          <Link to="projects" className="hover:text-indigo-400 transition-colors duration-300">
+            Projects
           </Link>
         </div>
         <div className="md:hidden">

@@ -2,6 +2,7 @@ import {useRoutes,Navigate} from "react-router-dom";
 import { MainContent } from "../layouts/mainContent";
 import { Home } from "../pages/Home";
 import { About } from "../pages/About";
+import { Projects } from "../pages/projects";
 
 export type routeItem={
     name:string;
@@ -36,6 +37,7 @@ export const AppRoutes =()=>useRoutes(
             children:[
                 {index:true,element:<Home/>},
                 {path:'about',element:<About/>},
+                {path:'projects',element:<Projects/>},
             
 
             ]
