@@ -52,7 +52,7 @@ export const Projects = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-12">
+    <div className="max-w-6xl mx-auto px-4 py-12 h-screen">
       <h2 className="text-4xl font-bold text-center text-gray-200 mb-10">
         Proyectos
       </h2>
