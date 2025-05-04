@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export const MainContent = () => {
   return (
-    <div className="bg-[#0a0a23] relative ">
+    <div className="bg-[#0a0a23] relative min-h-screen ">
       <Navbar />
       <motion.div
         className="container mx-auto"
@@ -20,7 +20,7 @@ export const MainContent = () => {
       <Footer />
 
       <a
-        href="https://wa.me/573001234567"
+        href="https://wa.me/573213437645"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 bg-green-500 rounded-full p-4 shadow-lg hover:bg-green-600 transition transform hover:scale-110"
