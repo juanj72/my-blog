@@ -19,6 +19,7 @@ import { //TODO: importar iconos desde el archivo de iconos
   } from 'react-icons/si';
 
   import { VscAzure } from "react-icons/vsc";
+  import { JSX } from 'react';
   
   export const Skills = () => {
     const frontend = [
@@ -49,7 +50,7 @@ import { //TODO: importar iconos desde el archivo de iconos
       { name: 'Linux', icon: <FaLinux size={40} color="#FCC624" /> },
     ];
   
-    const renderSection = (title, items) => ( //TODO: mejorar el renderizado de las secciones
+    const renderSection = (title:string, items:{ name: string; icon: JSX.Element }[]) => ( //TODO: mejorar el renderizado de las secciones
       <div className="mb-10">
         <h3 className="text-2xl font-semibold text-gray-200 mb-6">{title}</h3>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">

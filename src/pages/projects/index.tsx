@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export const Projects = () => {
   const projects = [
@@ -32,7 +32,7 @@ export const Projects = () => {
     },
   ];
 
-  const getTechColor = (tech) => {
+  const getTechColor = (tech:string) => {
     switch (tech) {
       case "React.js":
         return "bg-cyan-400";
