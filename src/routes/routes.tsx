@@ -1,6 +1,7 @@
 import {useRoutes,Navigate} from "react-router-dom";
 import { MainContent } from "../layouts/mainContent";
 import { Home } from "../pages/Home";
+import { About } from "../pages/About";
 
 export type routeItem={
     name:string;
@@ -33,7 +34,9 @@ export const AppRoutes =()=>useRoutes(
             path:'/',
             element: <MainContent/>,
             children:[
-                {index:true,element:<Home/>}
+                {index:true,element:<Home/>},
+                {path:'about',element:<About/>},
+            
 
             ]
         }

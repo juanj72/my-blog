@@ -16,21 +16,21 @@ export const Home = () => {
         {/* Redes sociales */}
         <div className="flex space-x-6 mt-4">
           <a
-            href="https://github.com/tuusuario"
+            href="https://github.com/juanj72"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGithub className="text-3xl text-gray-300 hover:text-white transition" />
           </a>
           <a
-            href="https://linkedin.com/in/tuusuario"
+            href="https://www.linkedin.com/in/juan-jos%C3%A9-jara-%C3%A1lvarez-a3a7731b4/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaLinkedin className="text-3xl text-blue-400 hover:text-blue-500 transition" />
           </a>
           <a
-            href="https://twitter.com/tuusuario"
+            href="https://x.com/juanjosjaraalv2"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -45,11 +45,11 @@ export const Home = () => {
           resolver problemas reales mediante código y me enfoco en escribir
           soluciones limpias, eficientes y sostenibles.
         </p>
-        <p className="mt-6 text-gray-400 text-justify leading-relaxed ">
+        {/* <p className="mt-6 text-gray-400 text-justify leading-relaxed ">
           Tengo experiencia práctica en Python, JavaScript y PHP, trabajando con
           frameworks como Django y React.js para construir herramientas robustas
           y eficientes.
-        </p>
+        </p> */}
         <div className="flex flex-wrap gap-2 mt-4">
           <span className="bg-gradient-to-r from-yellow-400 to-blue-500 text-white px-2 py-1 rounded text-sm">
             Python

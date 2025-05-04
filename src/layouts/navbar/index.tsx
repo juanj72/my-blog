@@ -15,10 +15,10 @@ export const Navbar = () => {
           </Link>
         </div>
         <div className="hidden md:flex space-x-6 text-lg">
-          <Link to="" className="hover:text-indigo-400 transition-colors duration-300">
+          <Link to="/" className="hover:text-indigo-400 transition-colors duration-300">
             Home
           </Link>
-          <Link to="" className="hover:text-indigo-400 transition-colors duration-300">
+          <Link to="about" className="hover:text-indigo-400 transition-colors duration-300">
             About
           </Link>
           <Link to="" className="hover:text-indigo-400 transition-colors duration-300">
