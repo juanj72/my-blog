@@ -4,7 +4,7 @@ export const About = () => {
     <div className="max-w-3xl mx-auto px-4 py-8 text-gray-300 mt-10">
       <h2 className="text-3xl font-bold mb-4">Sobre mí</h2>
 
-      <p className="mb-4">
+      <p className="mb-4 text-justify">
         Soy Juan Jose Jara, ingeniero de sistemas y desarrollador backend con{" "}
         <b>2 años </b>
         de experiencia. Me apasiona resolver problemas reales mediante código,
@@ -27,12 +27,12 @@ export const About = () => {
         mientras avanzo hacia el desarrollo full stack.
       </p>
 
-      <p className="mb-4">
+      <p className="mb-4 text-justify">
         Me considero una persona versátil, con gran capacidad de aprendizaje y
         curiosidad constante por mejorar mis habilidades técnicas y personales.
       </p>
 
-      <p className="mb-4">
+      <p className="mb-4 text-justify">
         Cuando no estoy escribiendo código, disfruto jugar al fútbol, tocar la
         guitarra y explorar nuevos desafíos creativos fuera del mundo del
         software.

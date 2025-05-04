@@ -45,7 +45,7 @@ import { //TODO: importar iconos desde el archivo de iconos
     ];
   
     const devops = [
-      { name: 'Azure app service', icon: <VscAzure size={40} color="blue" /> },
+      { name: 'Azure', icon: <VscAzure size={40} color="blue" /> },
       { name: 'Linux', icon: <FaLinux size={40} color="#FCC624" /> },
     ];
   

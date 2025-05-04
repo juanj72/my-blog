@@ -23,7 +23,7 @@ export const Home = () => {
             <FaGithub className="text-3xl text-gray-300 hover:text-white transition" />
           </a>
           <a
-            href="https://www.linkedin.com/in/juan-jos%C3%A9-jara-%C3%A1lvarez-a3a7731b4/"
+            href="https://www.linkedin.com/in/juan-josé-jara-álvarez-a3a7731b4/"
             target="_blank"
             rel="noopener noreferrer"
           >

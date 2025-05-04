@@ -60,18 +60,18 @@ export const Navbar = () => {
           Home
         </Link>
         <Link
-          to=""
+          to="about"
           className="block py-2 hover:text-indigo-400 transition-colors duration-300"
           onClick={() => setIsOpen(false)}
         >
           About
         </Link>
         <Link
-          to=""
+          to="projects"
           className="block py-2 hover:text-indigo-400 transition-colors duration-300"
           onClick={() => setIsOpen(false)}
         >
-          Posts
+          Projects
         </Link>
       </div>
     </nav>

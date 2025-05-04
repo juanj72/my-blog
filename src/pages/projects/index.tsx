@@ -5,7 +5,7 @@ export const Projects = () => {
     {
       name: "Orderins",
       embedUrl:
-        "https://drive.google.com/file/d/12Xv4qKloUe1rsc53_8KTVkZmBuxkIvwP/preview", // deja vacío si usas local
+        "https://drive.google.com/file/d/12Xv4qKloUe1rsc53_8KTVkZmBuxkIvwP/preview",
       localVideo: "",
       technologies: [
         "HTML",
@@ -32,7 +32,7 @@ export const Projects = () => {
     },
   ];
 
-  const getTechColor = (tech) => { //TODO : linter
+  const getTechColor = (tech) => {
     switch (tech) {
       case "React.js":
         return "bg-cyan-400";
@@ -67,7 +67,6 @@ export const Projects = () => {
                 <video
                   controls
                   className="absolute top-0 left-0 w-full h-full rounded"
-                  poster="/src/assets/orderins-thumbnail.jpg" // opcional
                 >
                   <source src={project.localVideo} type="video/mp4" />
                   Tu navegador no soporta el video.
@@ -100,6 +99,49 @@ export const Projects = () => {
             <p className="text-gray-400 text-sm">{project.description}</p>
           </div>
         ))}
+      </div>
+
+      {/* Sección de Contacto */}
+      <div className="mt-12 text-center">
+        <h3 className="text-2xl font-semibold text-gray-200 mb-2">
+          💬 Contáctame
+        </h3>
+        <p className="text-gray-400 max-w-xl mx-auto mb-4">
+          ¿Te interesa alguno de estos proyectos o quieres saber más sobre cómo
+          trabajo? Estoy disponible para charlar. Escríbeme por{" "}
+          <a
+            href="https://wa.me/573001234567"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-400 hover:underline"
+          >
+            WhatsApp
+          </a>{" "}
+          o{" "}
+          <a
+            href="https://www.linkedin.com/in/juan-josé-jara-álvarez-a3a7731b4/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:underline"
+          >
+            LinkedIn
+          </a>{" "}
+          para hablar sobre desarrollo, colaboración o nuevas oportunidades.
+        </p>
+
+        {/* Frase personal */}
+        <p className="text-gray-400 italic">
+          “Experiencia es el nombre que todos le dan a sus errores.” -- Oscar Wilde
+        </p>
+        <p className="text-gray-400 italic flex items-center justify-center">
+          “La determinación es el arte de nunca rendirse”
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg"
+            alt="Colombia flag"
+            className="w-6 h-4 ml-2 inline"
+          />
+          — de Colombia para el mundo
+        </p>
       </div>
     </div>
   );
