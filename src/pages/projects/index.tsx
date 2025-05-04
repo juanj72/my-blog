@@ -1,12 +1,12 @@
 import React from "react";
-import demoVideo from "../../assets/orderins-demo.webm";
 
 export const Projects = () => {
   const projects = [
     {
       name: "Orderins",
-      embedUrl: "", // deja vacío si usas local
-      localVideo: demoVideo,
+      embedUrl:
+        "https://drive.google.com/file/d/12Xv4qKloUe1rsc53_8KTVkZmBuxkIvwP/preview", // deja vacío si usas local
+      localVideo: "",
       technologies: [
         "HTML",
         "CSS",
