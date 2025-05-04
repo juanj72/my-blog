@@ -1,4 +1,4 @@
-import {
+import { //TODO: importar iconos desde el archivo de iconos
     FaReact,
     FaJsSquare,
     FaPython,
@@ -14,10 +14,11 @@ import {
     SiMongodb,
     SiTailwindcss,
     SiVite,
-    SiApache,
     SiDjango,
     SiFastapi,
   } from 'react-icons/si';
+
+  import { VscAzure } from "react-icons/vsc";
   
   export const Skills = () => {
     const frontend = [
@@ -44,11 +45,11 @@ import {
     ];
   
     const devops = [
-      { name: 'Apache', icon: <SiApache size={40} color="#CA1A22" /> },
+      { name: 'Azure app service', icon: <VscAzure size={40} color="blue" /> },
       { name: 'Linux', icon: <FaLinux size={40} color="#FCC624" /> },
     ];
   
-    const renderSection = (title, items) => (
+    const renderSection = (title, items) => ( //TODO: mejorar el renderizado de las secciones
       <div className="mb-10">
         <h3 className="text-2xl font-semibold text-gray-200 mb-6">{title}</h3>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">

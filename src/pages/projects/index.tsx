@@ -32,7 +32,7 @@ export const Projects = () => {
     },
   ];
 
-  const getTechColor = (tech) => {
+  const getTechColor = (tech) => { //TODO : linter
     switch (tech) {
       case "React.js":
         return "bg-cyan-400";
