@@ -34,7 +34,7 @@ export const Projects = () => {
       localVideo: "",
       technologies: [
         "Django",
-        "WebScket",
+        "WebSocket",
         "MySQL",
         "Bootstrap",
         "HTML",
@@ -43,6 +43,26 @@ export const Projects = () => {
       ],
       description:
         "Este innovador mini proyecto transforma la experiencia de espera en cualquier entidad, convirtiendo un momento aburrido en una experiencia entretenida e interactiva. Los usuarios pueden disfrutar de dos clásicos atemporales, Memorama o Tetris, directamente desde su dispositivo mientras aguardan su turno. Lo mejor de todo: cuando llega su momento, el sistema les envía una notificación emergente en su sesión, eliminando la necesidad de estar atentos a las pantallas del lugar. Este proyecto no solo mejora la comodidad del usuario, sino que también eleva la percepción del servicio, ofreciendo una espera amena, moderna y eficiente.",
+    },
+    {
+      name: "Billchemy",
+      embedUrl: "https://www.youtube.com/embed/GJpYLol993g?si=U6U-AyAMtz8Ldb9q",
+      localVideo: "",
+      technologies: [
+        "FastAPI",
+        "Python",
+        "LibreOffice Headless",
+        "Clean Architecture",
+        "CSS",
+        "JavaScript",
+      ],
+      description: `
+Billchemy es una API con FastAPI y Clean Architecture que convierte plantillas (.docx) en facturas PDF.  
+• Sube y lista plantillas via REST.  
+• Genera PDFs con datos JSON.  
+• Pruebas con pytest, tipado MyPy y linting en CI.  
+• Despliegue sencillo con Docker y LibreOffice headless.  
+`,
     },
   ];
 
