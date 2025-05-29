@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { TbFileCv } from "react-icons/tb";
 import myphoto from "../../assets/profile.webp";
 
 export const Home = () => {
@@ -41,6 +42,15 @@ export const Home = () => {
             title="Ir a perfil de Twitter"
           >
             <FaTwitter className="text-3xl text-blue-300 hover:text-blue-400 transition" />
+          </a>
+          <a
+            href="https://docs.google.com/document/d/1p1xpH8IiODRPg0WNlx08R5MyN_HkdPhy/edit?tab=t.0"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Ver curriculum"
+            title="Ver curriculum"
+          >
+            <TbFileCv className="text-3xl text-green-300 hover:text-green-400 transition" />
           </a>
         </div>
 
