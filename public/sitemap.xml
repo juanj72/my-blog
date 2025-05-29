@@ -5,11 +5,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://juanjosejara.com/proyectos</loc>
+    <loc>https://juanjosejara.com/about</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://juanjosejara.com/contacto</loc>
+    <loc>https://juanjosejara.com/projects</loc>
     <priority>0.6</priority>
   </url>
 </urlset>
