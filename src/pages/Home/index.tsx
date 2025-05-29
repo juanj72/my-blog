@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-import myphoto from "../../assets/profile.png";
+import myphoto from "../../assets/profile.webp";
 
 export const Home = () => {
   return (
@@ -19,6 +19,8 @@ export const Home = () => {
             href="https://github.com/juanj72"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Ir a perfil de GitHub"
+            title="Ir a perfil de GitHub"
           >
             <FaGithub className="text-3xl text-gray-300 hover:text-white transition" />
           </a>
@@ -26,6 +28,8 @@ export const Home = () => {
             href="https://www.linkedin.com/in/juan-josé-jara-álvarez-a3a7731b4/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Ir a perfil de LinkedIn"
+            title="Ir a perfil de LinkedIn"
           >
             <FaLinkedin className="text-3xl text-blue-400 hover:text-blue-500 transition" />
           </a>
@@ -33,6 +37,8 @@ export const Home = () => {
             href="https://x.com/juanjosjaraalv2"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Ir a perfil de Twitter"
+            title="Ir a perfil de Twitter"
           >
             <FaTwitter className="text-3xl text-blue-300 hover:text-blue-400 transition" />
           </a>

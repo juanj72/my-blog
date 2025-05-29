@@ -38,7 +38,6 @@ export const About = () => {
         software.
       </p>
       <Skills />
-      
     </div>
   );
 };
