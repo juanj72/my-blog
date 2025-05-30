@@ -137,6 +137,8 @@ Billchemy es una API con FastAPI y Clean Architecture que convierte plantillas (
         </div>
       </main>
 
+      
+
       {/* Sección de Contacto */}
       <div className="mt-12 text-center bg-[#0a0a23] rounded-lg shadow p-4">
         <h3 className="text-2xl font-semibold text-gray-200 mb-2">
@@ -164,6 +166,7 @@ Billchemy es una API con FastAPI y Clean Architecture que convierte plantillas (
           </a>{" "}
           para hablar sobre desarrollo, colaboración o nuevas oportunidades.
         </p>
+        
 
         {/* Frase personal */}
         <p className="text-gray-400 italic">
@@ -175,6 +178,8 @@ Billchemy es una API con FastAPI y Clean Architecture que convierte plantillas (
           <span className="ml-2 text-2xl">🇨🇴</span> — de Colombia para el mundo
         </p>
       </div>
+      
+      
     </div>
   );
 };

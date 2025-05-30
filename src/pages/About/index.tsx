@@ -1,4 +1,5 @@
 import { Skills } from "./components/Skills";
+import { FormContact } from "./components/FormContact";
 export const About = () => {
   return (
     <div className="max-w-3xl mx-auto px-4 py-8 text-gray-300 mt-10">
@@ -38,6 +39,7 @@ export const About = () => {
         software.
       </p>
       <Skills />
+      <FormContact />
     </div>
   );
 };
