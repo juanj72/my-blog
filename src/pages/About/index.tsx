@@ -39,7 +39,7 @@ export const About = () => {
         software.
       </p>
       <Skills />
-      <FormContact/>
+      <FormContact />
     </div>
   );
 };
