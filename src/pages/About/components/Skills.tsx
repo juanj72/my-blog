@@ -6,6 +6,7 @@ import { //TODO: importar iconos desde el archivo de iconos
     FaCss3Alt,
     FaHtml5,
     FaLinux,
+    FaAws
   } from 'react-icons/fa';
   import {
     SiTypescript,
@@ -48,6 +49,7 @@ import { //TODO: importar iconos desde el archivo de iconos
     const devops = [
       { name: 'Azure', icon: <VscAzure size={40} color="blue" /> },
       { name: 'Linux', icon: <FaLinux size={40} color="#FCC624" /> },
+      { name: 'AWS', icon: <FaAws size={40} color="#FF9900" /> },
     ];
   
     const renderSection = (title:string, items:{ name: string; icon: JSX.Element }[]) => ( //TODO: mejorar el renderizado de las secciones
