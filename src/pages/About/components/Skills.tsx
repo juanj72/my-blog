@@ -18,6 +18,7 @@ import { //TODO: importar iconos desde el archivo de iconos
     SiDjango,
     SiFastapi,
   } from 'react-icons/si';
+  import { FaPhp } from "react-icons/fa6";
 
   import { VscAzure } from "react-icons/vsc";
   import { JSX } from 'react';
@@ -38,6 +39,8 @@ import { //TODO: importar iconos desde el archivo de iconos
       { name: 'Python', icon: <FaPython size={40} color="#3776AB" /> },
       { name: 'Django', icon: <SiDjango size={40} color="#092E20" /> },
       { name: 'FastAPI', icon: <SiFastapi size={40} color="#009688" /> },
+      { name: 'PHP', icon: <FaPhp size={40} color="#8892BF" /> },
+      
     ];
   
     const databases = [
