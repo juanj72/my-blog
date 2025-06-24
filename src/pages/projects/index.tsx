@@ -64,6 +64,30 @@ Billchemy es una API con FastAPI y Clean Architecture que convierte plantillas (
 • Despliegue sencillo con Docker y LibreOffice headless.  
 `,
     },
+    {
+      name: "Todo App - Clean Architecture",
+      embedUrl: "https://drive.google.com/file/d/1sVuvKEz1vao8oYR5Q6zMKtjePqgXfc6o/preview",
+      localVideo: "",
+      technologies: [
+        "Typescript",
+        "MongoDB",
+        "React.js",
+        "Clean Architecture",
+        "Tailwind CSS",
+        "JavaScript",
+        "Docker",
+      ],
+      description: `
+Esta aplicación de tareas pendientes (Todo App) es un ejemplo de cómo implementar Clean Architecture con TypeScript y React.js.
+Permite a los usuarios crear, editar y eliminar tareas, ademas de algunos requerimientos adicionales, está diseñada para ser escalable y mantenible.  
+• Utiliza MongoDB para el almacenamiento de datos.  
+• Implementa una arquitectura limpia para separar las preocupaciones.  
+• Despliegue sencillo con Docker.  
+• Interfaz de usuario moderna con Tailwind CSS.
+
+Debido a al requerimiento, está realizada con typescript puro sin ningun tipo de framework para el backend, y con React.js para el frontend. 
+`,
+    }
   ];
 
   const getTechColor = (tech: string) => {
@@ -137,7 +161,7 @@ Billchemy es una API con FastAPI y Clean Architecture que convierte plantillas (
         </div>
       </main>
 
-      
+
 
       {/* Sección de Contacto */}
       <div className="mt-12 text-center bg-[#0a0a23] rounded-lg shadow p-4">
@@ -166,7 +190,7 @@ Billchemy es una API con FastAPI y Clean Architecture que convierte plantillas (
           </a>{" "}
           para hablar sobre desarrollo, colaboración o nuevas oportunidades.
         </p>
-        
+
 
         {/* Frase personal */}
         <p className="text-gray-400 italic">
@@ -178,8 +202,8 @@ Billchemy es una API con FastAPI y Clean Architecture que convierte plantillas (
           <span className="ml-2 text-2xl">🇨🇴</span> — de Colombia para el mundo
         </p>
       </div>
-      
-      
+
+
     </div>
   );
 };
