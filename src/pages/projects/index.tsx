@@ -69,19 +69,23 @@ Billchemy es una API con FastAPI y Clean Architecture que convierte plantillas (
       embedUrl: "https://drive.google.com/file/d/1sVuvKEz1vao8oYR5Q6zMKtjePqgXfc6o/preview",
       localVideo: "",
       technologies: [
-        "FastAPI",
-        "Python",
-        "LibreOffice Headless",
+        "Typescript",
+        "MongoDB",
+        "React.js",
         "Clean Architecture",
-        "CSS",
+        "Tailwind CSS",
         "JavaScript",
+        "Docker",
       ],
       description: `
-Billchemy es una API con FastAPI y Clean Architecture que convierte plantillas (.docx) en facturas PDF.  
-• Sube y lista plantillas via REST.  
-• Genera PDFs con datos JSON.  
-• Pruebas con pytest, tipado MyPy y linting en CI.  
-• Despliegue sencillo con Docker y LibreOffice headless.  
+Esta aplicación de tareas pendientes (Todo App) es un ejemplo de cómo implementar Clean Architecture con TypeScript y React.js.
+Permite a los usuarios crear, editar y eliminar tareas, ademas de algunos requerimientos adicionales, está diseñada para ser escalable y mantenible.  
+• Utiliza MongoDB para el almacenamiento de datos.  
+• Implementa una arquitectura limpia para separar las preocupaciones.  
+• Despliegue sencillo con Docker.  
+• Interfaz de usuario moderna con Tailwind CSS.
+
+Debido a al requerimiento, está realizada con typescript puro sin ningun tipo de framework para el backend, y con React.js para el frontend. 
 `,
     }
   ];
