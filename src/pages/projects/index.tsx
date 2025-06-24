@@ -64,6 +64,26 @@ Billchemy es una API con FastAPI y Clean Architecture que convierte plantillas (
 • Despliegue sencillo con Docker y LibreOffice headless.  
 `,
     },
+    {
+      name: "Todo App - Clean Architecture",
+      embedUrl: "https://drive.google.com/file/d/1sVuvKEz1vao8oYR5Q6zMKtjePqgXfc6o/preview",
+      localVideo: "",
+      technologies: [
+        "FastAPI",
+        "Python",
+        "LibreOffice Headless",
+        "Clean Architecture",
+        "CSS",
+        "JavaScript",
+      ],
+      description: `
+Billchemy es una API con FastAPI y Clean Architecture que convierte plantillas (.docx) en facturas PDF.  
+• Sube y lista plantillas via REST.  
+• Genera PDFs con datos JSON.  
+• Pruebas con pytest, tipado MyPy y linting en CI.  
+• Despliegue sencillo con Docker y LibreOffice headless.  
+`,
+    }
   ];
 
   const getTechColor = (tech: string) => {
@@ -137,7 +157,7 @@ Billchemy es una API con FastAPI y Clean Architecture que convierte plantillas (
         </div>
       </main>
 
-      
+
 
       {/* Sección de Contacto */}
       <div className="mt-12 text-center bg-[#0a0a23] rounded-lg shadow p-4">
@@ -166,7 +186,7 @@ Billchemy es una API con FastAPI y Clean Architecture que convierte plantillas (
           </a>{" "}
           para hablar sobre desarrollo, colaboración o nuevas oportunidades.
         </p>
-        
+
 
         {/* Frase personal */}
         <p className="text-gray-400 italic">
@@ -178,8 +198,8 @@ Billchemy es una API con FastAPI y Clean Architecture que convierte plantillas (
           <span className="ml-2 text-2xl">🇨🇴</span> — de Colombia para el mundo
         </p>
       </div>
-      
-      
+
+
     </div>
   );
 };
